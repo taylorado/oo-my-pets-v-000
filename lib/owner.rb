@@ -2,7 +2,7 @@ class Owner
   # code goes here
   attr_accessor :owner_name
 
-  @@all_owners = []
+  @@all = []
 
   def initialize(owner_name)
     @owner_name = owner_name
@@ -11,14 +11,14 @@ class Owner
   end
 
   def self.all
-    @@all_owners
+    @@all
   end
 
   def self.reset_all
-    @@all_owners = []
+    @@all = []
 end
 
   def count
-    @@all_owners.count
+    @@all.count
   end
 end
