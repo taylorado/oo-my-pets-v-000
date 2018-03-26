@@ -59,4 +59,12 @@ end
     @pets[:dogs].map {|dog| dog.mood = "happy"}
   end
 
+  def play_with_cats
+    @pets[:cats].map {|cat| cat.mood = "happy"}
+  end
+
+  def feed_fish
+    @pets[:fish].map {|fish| fish.mood = "happy"}
+  end
+
 end
