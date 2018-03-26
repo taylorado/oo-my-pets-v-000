@@ -44,4 +44,14 @@ end
     fish = Fish.new(fishname)
     @pets[:fishes] << fish
   end
+
+  def buy_dog(dogname)
+    dog = Dog.new(dogname)
+    @pets[:dogs] << dog
+  end
+
+  def buy_cat(catname)
+    cat = Cat.new(catname)
+    @pets[:cats] << cat
+  end
 end
