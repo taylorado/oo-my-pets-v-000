@@ -10,8 +10,8 @@ class Owner
     @@all << @name
   end
 
-  def name(name)
-    @name = name
+  def name
+    @name 
   end
 
   def pets
