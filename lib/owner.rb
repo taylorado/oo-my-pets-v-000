@@ -12,22 +12,16 @@ class Owner
     @@all << self
   end
 
-
-
   def self.all
     @@all
   end
 
   def self.reset_all
     @@all = []
-end
+  end
 
   def self.count
     @@all.count
-  end
-
-  def species
-    @species
   end
 
   def say_species
