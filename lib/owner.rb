@@ -56,20 +56,20 @@ end
   end
 
   def walk_dogs
-    @pets[:dogs].map {|dog| dog.mood = "happy"}
+    @pets[:dogs].each {|dog| dog.mood = "happy"}
   end
 
   def play_with_cats
-    @pets[:cats].map {|cat| cat.mood = "happy"}
+    @pets[:cats].each {|cat| cat.mood = "happy"}
   end
 
   def feed_fish
-    @pets[:fishes].map {|fish| fish.mood = "happy"}
+    @pets[:fishes].each {|fish| fish.mood = "happy"}
   end
 
   def sell_pets
-    @pets.each  {|species, pets| pets.map {|pet| pet.mood = "nervous"}}
-    @pets= {fishes:[],cats:[],dogs:[]}
+    @pets.each  {|species, pets| pets.each {|pet| pet.mood = "nervous"}}
+    @pets = {fishes:[],cats:[],dogs:[]}
   end
 
   def list_pets
