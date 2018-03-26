@@ -10,7 +10,7 @@ class Owner
     @@all << owner_name
   end
 
-  def name=(name)
+  def name(name)
     @owner_name = name
   end
 
