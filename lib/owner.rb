@@ -1,17 +1,17 @@
 class Owner
   # code goes here
-  attr_accessor :owner_name
+  attr_accessor :name
 
   @@all = []
 
-  def initialize(owner_name)
-    @owner_name = owner_name
+  def initialize(name)
+    @name = name
     @pets = {fishes:[],cats:[],dogs:[]}
-    @@all << owner_name
+    @@all << @name
   end
 
   def name(name)
-    @owner_name = name
+    @name = name
   end
 
   def self.all
