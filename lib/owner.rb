@@ -20,4 +20,5 @@ end
 
   def count
     @@all_owners.count
+  end
 end
