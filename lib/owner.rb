@@ -12,13 +12,7 @@ class Owner
     @@all << self
   end
 
-  def name
-    @name
-  end
 
-  def pets
-    @pets
-  end
 
   def self.all
     @@all
