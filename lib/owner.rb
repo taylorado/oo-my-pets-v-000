@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_accessor :name
+  attr_accessor :name, :species
 
   @@all = []
 
@@ -28,5 +28,13 @@ end
 
   def self.count
     @@all.count
+  end
+
+  def species(species)
+    @species = species
+  end
+
+  def species
+    @species
   end
 end
