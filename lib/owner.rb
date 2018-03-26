@@ -13,4 +13,7 @@ class Owner
   def self.all
     @@all_owners
   end
+
+  def self.reset_all
+    @@all_owners = []
 end
