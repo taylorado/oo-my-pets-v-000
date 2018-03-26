@@ -35,4 +35,8 @@ end
   def species
     @species
   end
+
+  def say_species
+    puts "I am a #{@species}."
+  end
 end
