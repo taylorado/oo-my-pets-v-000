@@ -64,7 +64,7 @@ end
   end
 
   def feed_fish
-    @pets[:fish].map {|fish| fish.mood = "happy"}
+    @pets[:fishes].map {|fish| fish.mood = "happy"}
   end
 
   def list_pets
