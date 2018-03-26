@@ -54,4 +54,9 @@ end
     cat = Cat.new(catname)
     @pets[:cats] << cat
   end
+
+  def walk_dogs
+    @pets[:dogs].map {|dog| dog.mood = "happy"}
+  end
+  
 end
