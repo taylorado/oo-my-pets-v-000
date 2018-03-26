@@ -39,4 +39,9 @@ end
   def say_species
     "I am a #{@species}."
   end
+
+  def buy_fish(fishname)
+    fish = Fish.new(fishname)
+    pets[:fishes] << fish
+  end
 end
