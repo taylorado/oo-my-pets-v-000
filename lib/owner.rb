@@ -32,10 +32,6 @@ end
     @@all.count
   end
 
-  def species(species)
-    @species = species
-  end
-
   def species
     @species
   end
