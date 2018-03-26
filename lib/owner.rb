@@ -14,6 +14,10 @@ class Owner
     @name = name
   end
 
+  def pets
+    @pets
+  end
+
   def self.all
     @@all
   end
